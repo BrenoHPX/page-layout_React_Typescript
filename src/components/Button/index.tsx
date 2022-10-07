@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 interface Props {
     tema?:string;
@@ -11,6 +11,6 @@ const Button = styled.button<Props>`
     width: 8vw;
     height: 5vw;
     border-radius: 20%;
-`
+`;
 
-export default Button
+export default Button;
