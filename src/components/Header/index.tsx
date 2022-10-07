@@ -36,7 +36,7 @@ const HeaderDiv = styled.div`
     justify-content: center;
     align-items:flex-start;
     `;
-//minha primeira.... light
+
 const Header:React.FC<HeaderProps> = ({text, tema, children}) => {
 
 	return(

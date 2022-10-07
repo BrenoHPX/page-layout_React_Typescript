@@ -53,10 +53,6 @@ const Ul = styled.ul`
 const Icones = styled.ul`
     padding: 3vw 7vw 3vw 0vw;
     `;
-const IconesImg = styled.img`
-    margin-left: 3vw;
-    width: 3vw;
-    `; 
 const P = styled.p<ContatoProps>`
     color: ${props=>props.tema === 'light'? 'black':'white'};
     `;

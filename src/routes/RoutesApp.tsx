@@ -15,5 +15,4 @@ const RoutesApp:React.FC = () => {
 	);
 };
 
-
 export default RoutesApp;
