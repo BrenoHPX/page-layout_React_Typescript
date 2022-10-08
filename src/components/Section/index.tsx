@@ -69,11 +69,13 @@ const Section:React.FC<PhotoProps> = ({photoUrl, title, text, photoSide, tema}) 
 	default:
 		return(
 			<>
-				<ImgDiv photoUrl={photoUrl}/>
-				<TextDiv tema={tema}>
-					<H1 tema={tema}>{title}</H1>
-					<P tema={tema}>{text}</P>
-				</TextDiv>
+				<Container>
+					<ImgDiv photoUrl={photoUrl}/>
+					<TextDiv tema={tema}>
+						<H1 tema={tema}>{title}</H1>
+						<P tema={tema}>{text}</P>
+					</TextDiv>
+				</Container>
 			</>
 		);
 		break;
